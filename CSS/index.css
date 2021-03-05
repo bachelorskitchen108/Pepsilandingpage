@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 55.3%;
+}
+section{
+    position: relative;
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004999;
+    transition: 0.5s;
+}
+header {
+    position: absolute;
+    top:0rem;
+    left: 0rem;
+    padding: 2rem 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+ .txtlogo{
+     position: absolute;
+    color:white;
+    font-size: 5rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    text-decoration: none;
+    left:22rem;
+    top:8rem;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    padding-left: 2.5rem;
+    color:white;
+    font-size: 2.11rem;
+    font-family:  'Poppins', sans-serif;
+    display: inline-block;
+    transition: 0.5s;
+}
+header ul li a:hover{
+    transform: translateY(-18%);
+}
+.content{
+position: relative;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+.texBox h2{
+    position: relative;
+    color:white;
+    left:5rem;
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+    top:3rem;
+}
+.texBox h2 span{
+    color:red;
+    font-family: 'Dancing Script', cursive;
+    font-size: 7rem;
+    padding-left: 1rem;
+    font-weight: 900;
+}
+.texBox p{
+    position: relative;
+    left: 5rem;
+    max-width: 75rem;
+    color: white;
+    font-size: 3rem;
+    text-align: start;
+    line-height: 3.8rem;
+    top:3rem;
+}
+.learn{
+    position: relative;
+    left:7rem;
+    top:5rem;
+    font-size: 3rem;
+    text-decoration: none;
+    display: inline-block;
+    background: #fff;
+    padding: 1.2rem 2rem;
+    border-radius: 4rem;
+}
+.imgBox{
+    position: relative;
+    padding-right: 20rem;
+    padding-top: 10rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.imgBox img{
+    max-width: 28rem;
+}
+.social{
+    position: absolute;
+    top:40%;
+    right: 5rem;
+}
+.social li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.social li a{
+    padding-top: 5rem;
+    transition: 0.5s;
+    transform: scale(0.8);
+    filter: invert(1);
+}
+.social li a:hover{
+    transform: translateY(-15%);
+}
+.thumb{
+    position: absolute;
+    left: 50%;
+    bottom:3rem;
+    transform: translateX(-50%);
+    display: flex;
+}
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 4rem;
+}
+.thumb ul li img{
+max-width: 4.5rem;
+transition: 0.5s;
+}
+.thumb ul li img:hover{
+    transform: translateY(-15%);
+}
+/* ------------------Meadi Quries----------- */
+@media (max-width: 900px) {
+    
+}
+
+
+
